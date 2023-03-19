@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+.corps{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/1225740014/fr/vectoriel/vector-grunge-fond-textur%C3%A9-magnifique-abstrait-d%C3%A9coratif-grunge-fond-rouge-effet-de.jpg?s=612x612&w=0&k=20&c=2j5vJqX3c4zQaEQmpVbkEEkYb3OQ2hsfEOZ-7KBWWZU=);
+    background-position: 0 0;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.nav{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 100px;
+    display: block;    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15;
+}
+li a:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+li a::before{
+    content: '';
+    background-color: rgb(241, 0, 0);
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+    transition: all .5s;
+    z-index: -1;
+}
+li a{
+   
+    z-index: 0;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    font-weight: 600;
+    font-size: x-large;
+    display: flex;
+    font-family:"Comic Sans MS";
+    text-decoration: none;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+.ligne{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-top: 50px;
+}
+.colonne{
+    flex-basis: 50%;
+}
+p{
+    color:white;
+    font-size: 11px;
+    line-height: 15px;
+}
+.photo{
+    width: 400px;
+    height: 230px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px ;
+    background-position: center;
+    background-size: cover;
+  transition-delay: 0s 1s;
+    transition-duration: 2s;
+}
+.photo1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 400px;
+}
+.photo2{background-image: url(https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2023/01/2560px-Machu_Picchu_Peru_2018.jpg?fit=1200%2C900&quality=100&ssl=1);
+}
+.photo3{background-image: url(https://i.natgeofe.com/n/819ea774-aa80-435e-af5a-ae56efee7ce3/92491_4x3.jpg);
+}
+.photo4{background-image: url(https://cms.valenciatravelcusco.com/media/images/package/sacred-valley-and-machu-picchu-by-train_Z4e2XgX.jpg);
+}
+.photo5{background-image: url(https://lp-cms-production.imgix.net/features/2018/04/Lima_coast_peru-c38ff3c151fb.jpg);
+}
+.photo6{background-image: url(https://i0.wp.com/www.exploorperu.com/wp-content/uploads/2022/08/best-markets-lima-exploor-peru-blog.png?fit=775%2C480&ssl=1);
+}
+
+.photo:hover{
+    transform: scale(1.3);
+}
+p{
+    font-size: 12px;
+}

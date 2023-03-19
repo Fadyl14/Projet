@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+.corps{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i0.wp.com/afrik-view.com/wp-content/uploads/2023/01/Adobe_Express_20230106_1556150_1.png?resize=712%2C375&ssl=1);
+    background-position: 0 0;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.nav{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 100px;
+    display: block;    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15;
+}
+li a:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+li a::before{
+    content: '';
+    background-color: rgb(241, 0, 0);
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+    transition: all .5s;
+    z-index: -1;
+}
+li a{
+   
+    z-index: 0;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    font-weight: 600;
+    font-size: x-large;
+    display: flex;
+    font-family:"Comic Sans MS";
+    text-decoration: none;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+.ligne{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-top: 50px;
+}
+.colonne{
+    flex-basis: 50%;
+}
+p{
+    color:white;
+    font-size: 11px;
+    line-height: 15px;
+}
+.photo{
+    width: 400px;
+    height: 230px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px ;
+    background-position: center;
+    background-size: cover;
+  transition-delay: 0s 1s;
+    transition-duration: 2s;
+}
+.photo1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 400px;
+}
+.photo2{background-image: url(https://img-4.linternaute.com/sm7q7xMoLCQbrHjS3Fhp-2gv9fg=/1240x/smart/509db419f4d54eb2bfb19f36f16807d7/ccmcms-linternaute/10740382.jpg);
+
+}
+ .photo3{background-image: url(https://www.blue-lagoon.fr/wp-content/uploads/2016/07/Parc-national-Kruger-et-r%C3%A9serves-priv%C3%A9es-Afrique-du-Sud-1.jpg);
+
+}
+.photo4{background-image: url(https://www.vetements-voyage.com/wp-content/uploads/2019/01/kruger-parc-afrique-du-sud-decouverte.jpg);
+}
+.photo5{background-image: url(https://static1.mclcm.net/iod/images/v2/103/photo/314587/630x420_100_300_000000x30x0.jpg?ts=20190327120323);
+}
+.photo6{background-image: url(https://imedfr.org/wp-content/uploads/2019/11/shutterstock_513428794-min-1.jpg);
+}
+
+.photo:hover{
+    transform: scale(1.3);
+}
+p{
+    font-size: 12px;
+}

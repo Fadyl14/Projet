@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+}
+.corps{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://us.123rf.com/450wm/trimailova/trimailova1712/trimailova171200037/92054823-d%C3%A9tails-du-fond-de-texture-dor%C3%A9e-avec-d%C3%A9grad%C3%A9-et-ombre-mur-de-peinture-couleur-or-fond-dor%C3%A9-de.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.nav{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 100px;
+    display: block;    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15;
+}
+li a:hover::before{
+    top: 0;
+    border-radius: 0;
+}
+li a::before{
+    content: '';
+    background-color: rgb(255, 179, 0);
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+    transition: all .5s;
+    z-index: -1;
+}
+li a{
+   
+    z-index: 0;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    font-weight: 600;
+    font-size: x-large;
+    display: flex;
+    font-family:"Comic Sans MS";
+    text-decoration: none;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+.ligne{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-top: 50px;
+}
+.colonne{
+    flex-basis: 50%;
+}
+p{
+    color:white;
+    font-size: 11px;
+    line-height: 15px;
+}
+.photo{
+    width: 400px;
+    height: 230px;
+    display: inline-block;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px ;
+    background-position: center;
+    background-size: cover;
+  transition-delay: 0s 1s;
+    transition-duration: 2s;
+}
+.photo1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 400px;
+}
+.photo2{background-image: url(https://cdn.unitycms.io/images/69xrfXby4WS9aGbAwL0wH_.jpg?op=ocroped&val=1200,1200,1000,1000,0,0&sum=Ajin80obXHg);
+
+}
+ .photo3{background-image: url(https://media.routard.com/image/95/9/fb-egypte.1571959.jpg);
+}
+.photo4{background-image: url(https://geo.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fgeo.2F2020.2F03.2F24.2F4e5beacd-5cd2-4421-bd44-85b340268405.2Ejpeg/1200x630/cr/wqkgRWd5cHQgTWluaXN0cnkgb2YgVG91cmlzbSBhbmQgQW50aXF1aXRpZXMgLyBHRU8%3D/pourquoi-le-soleil-suggere-que-le-sphinx-de-gizeh-na-pas-ete-construit-la-par-hasard.jpg);
+}
+
+.photo5{background-image: url(https://www.afrik21.africa/wp-content/uploads/2020/06/shutterstock_1456340768.jpg);
+}
+.photo6{background-image: url(https://www.populationdata.net/wp-content/uploads/2016/05/le-caire-egypte.jpg);
+}
+
+.photo:hover{
+    transform: scale(1.3);
+}
+p{
+    font-size: 12px;
+}
